@@ -30,6 +30,5 @@ export default (env: any) => {
             extensions: ['.tsx', '.ts', '.js'],
         },
     };
-
-    return config; // Возвращаем объект конфигурации
-};
+    return config;
+}
