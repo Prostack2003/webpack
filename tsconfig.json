@@ -1,11 +1,22 @@
 {
     "compilerOptions": {
+        "outDir": "./dist/",
+        "noImplicitAny": true,
         "target": "es5",
-        "module": "commonjs",
+        "module": "ESNext",
         "strict": true,
+        "jsx": "react",
+        "allowJs": true,
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
         "esModuleInterop": true,
         "skipLibCheck": true,
         "forceConsistentCasingInFileNames": true,
         "types": ["node", "webpack", "webpack-dev-server"]
+    },
+    "ts-node": {
+        "compilerOptions": {
+            "module": "CommonJS"
+        }
     }
 }

@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "build:dev": "ts-node --project tsconfig.json ./node_modules/webpack/bin/webpack --config webpack.config.ts --env mode=development",
-    "build:prod": "ts-node --project tsconfig.json ./node_modules/webpack/bin/webpack --config webpack.config.ts --env mode=production"
+    "build:prod": "ts-node --project tsconfig.json ./node_modules/webpack/bin/webpack --config webpack.config.ts --env mode=production",
+    "start": "webpack serve"
   },
   "keywords": [],
   "author": "",
